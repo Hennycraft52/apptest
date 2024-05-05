@@ -1,26 +1,35 @@
 {
-    "logo": {
-      "elements": [
+  "v": "5.7.4",
+  "fr": 30,
+  "ip": 0,
+  "op": 60,
+  "w": 200,
+  "h": 200,
+  "nm": "Pulsating_G_Logo",
+  "ddd": 0,
+  "layers": [
+    {
+      "ddd": 0,
+      "ind": 1,
+      "ty": 4,
+      "nm": "G1",
+      "sr": 1,
+      "ks": {
+        "o": { "a": 0, "k": 100 },
+        "s": { "a": 0, "k": [100, 120] }
+      },
+      "ao": 0,
+      "shapes": [
         {
-          "id": "G1",
-          "type": "letter",
-          "animation": {
-            "type": "rotation",
-            "duration": 2000,
-            "angle": 360
-          }
-        },
-        {
-          "id": "G2",
-          "type": "letter",
-          "animation": {
-            "type": "scale",
-            "duration": 1500,
-            "from": 1,
-            "to": 1.2
-          }
+          "ty": "rect",
+          "d": 1,
+          "s": { "a": 0, "k": [100, 100] },
+          "p": { "a": 0, "k": [100, 100] },
+          "r": { "a": 0, "k": 50 },
+          "nm": "Rectangle Path 1",
+          "mn": "ADBE Vector Shape - Rect"
         }
       ]
     }
-  }
-  
+  ]
+}
