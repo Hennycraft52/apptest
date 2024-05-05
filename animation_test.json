@@ -1,0 +1,26 @@
+{
+    "logo": {
+      "elements": [
+        {
+          "id": "G1",
+          "type": "letter",
+          "animation": {
+            "type": "rotation",
+            "duration": 2000,
+            "angle": 360
+          }
+        },
+        {
+          "id": "G2",
+          "type": "letter",
+          "animation": {
+            "type": "scale",
+            "duration": 1500,
+            "from": 1,
+            "to": 1.2
+          }
+        }
+      ]
+    }
+  }
+  
